@@ -1,0 +1,90 @@
+.main-background,.card-body{
+    background: rgb(207,232,240);
+    background: linear-gradient(90deg, rgba(207,232,240,0.48783263305322133) 11%, rgba(190,188,202,0.5298494397759104) 69%, rgba(127,190,219,0.5326505602240896) 100%);
+  }
+  .gradient-background {
+background: linear-gradient(300deg, #6ccbeb, #bebcca, #7fbedb);
+background-size: 180% 180%;
+animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+0% {
+background-position: 0% 50%;
+}
+50% {
+background-position: 100% 50%;
+}
+100% {
+background-position: 0% 50%;
+}
+}
+
+
+
+.about-me{
+    font-family: sans-serif;
+  }
+  .card-text{
+    font-family: sans-serif;
+  }
+
+  .logo-rounded{
+    border-radius: 50%;
+    height:20px;
+  }
+  .logo{
+    height:18px;
+  }
+  .card-text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .name {
+    font-family: sans-serif;
+    color: rgb(2, 2, 2);
+    font-size: 4rem;
+    font-weight: bold;
+  }
+  .header-background {
+    background-color: rgb(232, 235, 238);
+  }
+  .my-photo {
+    max-width: 200px;
+    height: auto;
+    border-radius: 50%;
+  }
+  .bold-text {
+    font-weight: 800;
+    color: rgb(82, 80, 83);
+  }
+  .parent {
+    margin-left: 100px;
+  }
+  .date {
+    color: rgb(1, 123, 153);
+  }
+  .date2 {
+    font-size: 25px;
+    color: gray;
+  }
+.cards-centered{
+    display: flex;
+    justify-content: center;
+}
+
+.card-img-top {
+    height: 270px;
+    object-fit: cover;
+  }
+  
+  .img-h2{
+    padding-bottom: 8px;
+  }
+
+  .box-shadow{
+    box-shadow: 5px 5px 5px rgb(90, 89, 89);
+  }
+
+
+  
